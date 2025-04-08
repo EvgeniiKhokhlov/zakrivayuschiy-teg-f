@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --Inter: 'Inter';
+    --PressStart2P:'PressStart2P';
+    --title-weigh:700;
+    --text-weigh:400;
+    --padding-title:100px;
+    --text-size-button:14px;
+    --text-size-project:18px;
+    --color-black:#000;
+    --color-white:white;
+    --color-heart-active:red;
+    --bg-gradient:repeating-linear-gradient(0deg,#d3d3d3, transparent 2px) ,
+    repeating-linear-gradient(180deg ,#d3d3d3 , transparent 2px),
+    repeating-linear-gradient(180deg,#e7e7e7, #1a1a1a );
+    --border-project:2px solid var(--color-black);
+
+}
