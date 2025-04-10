@@ -1,4 +1,3 @@
-
 .page {
   block-size: min-content;
   font-family: var(--font-project), sans-serif;
@@ -99,7 +98,7 @@
   inline-size: 100%;
 }
 
-.filter__contrast-grayscale{
+.filter__contrast-grayscale {
   filter: contrast(85%) grayscale(0.7);
 }
 
@@ -157,10 +156,10 @@
   background-color: var(--color-black);
   transform-origin: left;
   transform: scaleX(0);
-  transition: transform 0.5s ease-in-out,width 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, width 0.5s ease-in-out;
 }
 
-.button__style:hover:after{
+.button__style:hover:after {
   width: 100%;
   height: 100%;
   transform: scaleX(1);
@@ -189,7 +188,7 @@
   border: none;
   block-size: 36px;
   inline-size: 45px;
-  transition: box-shadow 0.3s ease
+  transition: box-shadow 0.3s ease;
 }
 
 .is-liked {
@@ -201,8 +200,8 @@
   box-shadow: 2px 2px 0 0 var(--color-black);
 }
 
-.like-icon .contur { 
-  fill:var(--color-black);
+.like-icon .contur {
+  fill: var(--color-black);
   transition: fill 0.1s linear;
 }
 
@@ -326,7 +325,6 @@ dialog::backdrop {
 }
 
 @media (width <=376px) {
-  
   .cover {
     padding-block: 120px;
   }
