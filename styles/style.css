@@ -76,6 +76,7 @@
 @supports ((text-stroke: 1px rgb(255 255 255 /0.5);
 ) or (-webkit-text-stroke: 1px rgb(255 255 255 /0.5); )) {
   .content__image-label {
+    text-shadow: none;
     text-stroke: 1px rgb(255 255 255 /0.5);
     -webkit-text-stroke: 1px rgb(255 255 255 /0.5);
   }
@@ -182,12 +183,13 @@
 }
 
 .card__icon-button {
+  margin-block-start: 2px;  
   margin-inline-end: 6px;
-  padding-block-start: 3px;
+  padding: 0;
   background-color: inherit;
   border: none;
-  block-size: 36px;
-  inline-size: 45px;
+  block-size: 33px;
+  inline-size: 38px;
   transition: box-shadow 0.3s ease;
 }
 
@@ -196,8 +198,7 @@
 }
 
 .card__icon-button:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 0 var(--color-black);
+  outline: 2px solid var(--color-black);
 }
 
 .like-icon .contur {
